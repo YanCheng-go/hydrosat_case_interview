@@ -6,4 +6,10 @@
 echo "Running setup.py..."
 python setup.py
 
+# Setup kernerl for jupyter
+echo "Setting up kernel for jupyter..."
+python -m ipykernel install --user --name=hydrosat
+# TO remove the kernel, run:
+# jupyter kernelspec uninstall hydrosat
+
 
